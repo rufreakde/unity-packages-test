@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - EventSystem
+  - MinimapCamera
+  - MinimapCanvas
+  - MinimapScript
+  - PlayersCanvas
   layers:
   - Default
   - TransparentFX
@@ -13,8 +18,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Units
+  - MinimapOnly
   - 
   - 
   - 
@@ -38,6 +43,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Map
+    uniqueID: 3970235379
+    locked: 0
+  - name: BuildingInside
+    uniqueID: 1939959259
+    locked: 0
+  - name: Units
+    uniqueID: 4146645731
+    locked: 0
+  - name: BuildingOutside
+    uniqueID: 102345435
+    locked: 0
+  - name: AirUnits
+    uniqueID: 2977887995
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3490665475
     locked: 0
